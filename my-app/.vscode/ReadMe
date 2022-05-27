@@ -1,0 +1,8 @@
+1- Please start the app by using 'npm i' and then 'npm start'.
+2- In this task I used functional component with hooks.
+3- I used useMemo as the computed dataset is somehow complex. So it is better to memorize the result in case of same parameters.
+4- I used tslinter and eslinter to find errors faster and easier.
+
+note:
+5- I started the task yesterday due to tight deadlines in my work so I didn't finish all the requirments.
+6- I've never used react with type script before, but it was nice. Thank you :).
