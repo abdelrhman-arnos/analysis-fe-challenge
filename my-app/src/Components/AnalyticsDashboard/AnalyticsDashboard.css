@@ -1,0 +1,8 @@
+.Analytics-Wrapper{
+    padding: 50px;
+}
+.filters-wrapper{
+display: grid;
+grid-auto-flow: column;
+padding-bottom: 20px;
+}

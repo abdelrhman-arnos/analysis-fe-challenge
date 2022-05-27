@@ -1,0 +1,9 @@
+.filter-wrapper{
+    display: grid;
+    grid-template-columns: 35% 65%;
+   
+}
+.filter-label{
+    padding-right: 10px;
+    padding-left:  10px;
+}
