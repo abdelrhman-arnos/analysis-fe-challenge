@@ -1,8 +1,15 @@
 import AnalyticsDashboard from './Components/AnalyticsDashboard/AnalyticsDashboard'
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import AnalysisDetails from './Components/AnalysisDetails/AnalysisDetails';
 
 function App() {
   return (
-    <AnalyticsDashboard/>
+    <Router>
+    <Routes>
+            <Route path="/" element={<AnalyticsDashboard />} />
+            <Route path="/details" element={<AnalysisDetails />} />
+    </Routes>
+    </Router>
   );
 }
 
